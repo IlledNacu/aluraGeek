@@ -1,5 +1,6 @@
 const url = "http://localhost:3000/products";
 const formulario = document.querySelector("[data-formulario]");
+const lista = document.querySelector("[data-ul]");
 
 async function listaImagenes() {
     try {
@@ -7,6 +8,9 @@ async function listaImagenes() {
         let datosImagenes = await fetchImagen.json();
 
         const card = document.querySelector("[data-ul]");
+        if(datosImagenes.length===0){
+            lista.innerHTML=`<p>Lo sentimos. No se han agregado productos :(</p>`;
+        }
         datosImagenes.forEach(elemento => {
             const contenido = `<li class="card">
             <img class="card__image" src="${elemento.imagen}" alt="imagen">
@@ -29,7 +33,7 @@ async function listaImagenes() {
             });
         });
     }catch (error) {
-        console.log(error);
+        lista.innerHTML=`<p>Lo sentimos. Ha habido un error en la conexión con la base de datos :(</p>`;
     }
 }
 
