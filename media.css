@@ -1,0 +1,14 @@
+@media (min-width: 760px) {
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .card__section{
+        width: 100%;
+    }
+
+    .ul__cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

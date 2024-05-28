@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <header>
+        <nav><img src="./images/image.png"></nav>
+    </header>
+
+    <main>
+        <section class="form__section">
+            <form class="container__formulario" data-formulario>
+                <h2 class="formulario__titulo">Agregar producto:</h2>
+                <div class="formulario__campo">
+                    <input name="nombre" class="campo__escrita" required placeholder="nombre..." id='nombre'
+                        data-nombre />
+                </div>
+
+                <div class="formulario__campo">
+                    <input name="precio" class="campo__escrita" required placeholder="precio..." id='precio'
+                        data-precio />
+                </div>
+
+                <div class="formulario__campo">
+                    <input name="imagen" class="campo__escrita" required placeholder="imagen..." id='imagen'
+                        data-imagen />
+                </div>
+                <div class="formulario__botones">
+                    <input class="formulario__boton boton-enviar" type="submit" />
+                    <input class="formulario__boton boton-limpiar" type="reset" />
+                </div>
+            </form>
+        </section>
+        <section class="card__section">
+            <h2 class="cards__titulo">Mis productos:</h2>
+            <ul class="ul__cards" data-ul>
+                <p hidden>No se han agregado productos.</p>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div><img src="./images/image.png"></div>
+        <p>Desarrollado por <a href="https://github.com/IlledNacu">Illed Huilén</a></p>
+        <p>Alura latam - 2024</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
+
+<!-- <li class="card">
+                    <img class="card__image" src="" alt="imagen">
+                    <div class="card-container--info">
+                        <h3 class="card__title">Nombre producto</h3>
+                        <div class="card-container--value">
+                            <p>$ 00</p>
+                            <a href=""><img src=""></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="" alt="imagen">
+                    <div class="card-container--info">
+                        <h3 class="card__title">Nombre producto</h3>
+                        <div class="card-container--value">
+                            <p>$ 00</p>
+                            <a href=""><img src=""></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="card__image" src="" alt="imagen">
+                    <div class="card-container--info">
+                        <h3 class="card__title">Nombre producto</h3>
+                        <div class="card-container--value">
+                            <p>$ 00</p>
+                            <a href=""><img src=""></a>
+                        </div>
+                    </div>
+                </li> -->

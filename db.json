@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "nombre": "Remera gamer 00",
+      "precio": 99.99,
+      "imagen": "./images/remera_gamer.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Remera gamer 01",
+      "precio": 199.99,
+      "imagen": "./images/remera_gamer2.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Remera gamer 02",
+      "precio": 299.99,
+      "imagen": "./images/remera_gamer3.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Remera gamer 03",
+      "precio": 299.99,
+      "imagen": "./images/remera_gamer4.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Remera gamer 004",
+      "precio": 59.99,
+      "imagen": "./images/remera_gamer5.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "Remera nerd",
+      "precio": 299.99,
+      "imagen": "./images/remera_nerd.jpg"
+    },
+    {
+      "id": "7",
+      "nombre": "Remera WASD",
+      "precio": 89.99,
+      "imagen": "./images/remera_wasd.webp"
+    },
+    {
+      "id": "8",
+      "nombre": "Remera programador 00",
+      "precio": 99.99,
+      "imagen": "./images/remera_programador.jpg"
+    },
+    {
+      "id": "9",
+      "nombre": "Remera programador 01",
+      "precio": 129.99,
+      "imagen": "./images/remera_programador.jpeg"
+    },
+    {
+      "id": "03f5",
+      "nombre": "Remera Dexter",
+      "precio": "99.99",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_641015-MLA69934186022_062023-O.webp"
+    }
+  ]
+}
